@@ -1,0 +1,49 @@
+/**
+ * Copyright (c) 2011 The Chromium Authors. All rights reserved.
+ * Use of this source code is governed by a BSD-style license that can be
+ * found in the LICENSE file.
+ */
+*{
+	box-sizing: border-box;
+}
+html, body{
+	margin: 0;
+	padding: 0;
+}
+.juuun-wow{
+	width: 300px;
+	height: 300px;
+	background: #FEE237;
+	font-family: "NotoSans", "PingFang SC", "PingFang", "Lantinghei SC", "HiraginoSansGB-W3", "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.juuun-wow .wow-index{
+	margin: 0;
+	padding-top: 20px;
+	color: #FFF;
+	font-size: 80px;
+	font-weight: bold;
+	text-shadow: 5px 5px 0 #62C1F6;
+	text-align: center;
+}
+.juuun-wow .wow-description{
+	text-align: center;
+	color: #524704;
+	font-size: 18px;
+}
+.juuun-wow .wow-button{
+	text-align: center;
+}
+.juuun-wow .wow-button button{
+	outline: none;
+	padding: 10px;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	color: #524704;
+	background: #FFF;
+	box-shadow: 5px 5px 0 #62C1F6;
+	cursor: pointer;
+}
+.juuun-wow .wow-button button:disabled{
+	opacity: 0.65;
+}

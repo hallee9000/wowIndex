@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "瓦数——你在即刻的瓦恁指数。",
+  "author": "leadream",
+  "version": "1.0.0",
+  "description": "看看你被瓦总点了多少个赞。",
+  "icons": { "128": "wow.png" },
+  "browser_action": {
+    "default_title": "瓦数",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "*://*.ruguoapp.com/*",
+    "https://web.okjike.com/*"
+  ]
+}
